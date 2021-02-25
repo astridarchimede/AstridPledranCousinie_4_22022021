@@ -95,6 +95,10 @@ a:hover {
     background-size: 280px 280px;
 }
 
+.zindex1{
+    z-index: 999;
+}
+
 .b-parallax {
     background-attachment: fixed;
 }
