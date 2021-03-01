@@ -480,7 +480,8 @@ button {
 }
 
 .icon-md {
-    font-size: 48px!important;
+    font-size: 30px!important;
+    margin: 8px;
 }
 
 .icon-lg {
