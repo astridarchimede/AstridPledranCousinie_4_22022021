@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper4.png");
+    background: url("img/texture-paper.png");
     background-size: 280px 280px;
 }
 
@@ -760,10 +760,6 @@ h4 {
 .black-background {
     background-color: rgba(119, 107, 75, 0.702);
     padding: 40px 40px 40px 40px;
-}
-
-.none-background{
-    background: none!important;
 }
 
 .bold-link {
