@@ -79,6 +79,10 @@ a:hover {
     background: top no-repeat;
 }
 
+.bg-black{
+    background-color: black;
+}
+
 .bloc-bg-texture::before {
     content: "";
     background-size: 2px 2px;
