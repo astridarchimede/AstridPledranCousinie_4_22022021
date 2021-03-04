@@ -821,12 +821,12 @@ h4 {
 
 .bg-banniere {
     background-image: url("img/min_pert/la-chouette-agence-banniere-contrast2.jpg");
-    background-color: black;
+    background-color: black!important;
 }
 
 .bg-presentation {
     background-image: url("img/min_pert/image-de-presentation.jpg");
-    background-color: black;
+    background-color: black!important;
 }
 
 @media (max-width: 1024px) {
