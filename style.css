@@ -643,7 +643,6 @@ a[data-lightbox]:hover img {
     background: none;
 }
 
-h1,
 h2,
 h3,
 h4,
@@ -664,7 +663,6 @@ a {
 
 .hero-bloc-text {
     font-size: 38px;
-    text-shadow: 0 0 15px #000000;
 }
 
 .hero-bloc-text-sub {
