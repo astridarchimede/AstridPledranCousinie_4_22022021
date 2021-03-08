@@ -1,6 +1,6 @@
 # BEGIN Cache-Control Headers
 <IfModule mod_headers.c>
-<FilesMatch "\.(ico|jpe?g|png|gif|swf|css|gz)$">
+<FilesMatch "\.(ico|jpe?g|jpg|png|gif|swf|css|gz)$">
 Header set Cache-Control "max-age=2592000, public"
 </FilesMatch>
 <FilesMatch "\.(js)$">
@@ -15,6 +15,7 @@ Header unset Cache-Control
 </FilesMatch>
 </IfModule>
 # END Cache-Control Headers
+
 # BEGIN Expires Headers
 <IfModule mod_expires.c>
 ExpiresActive On
