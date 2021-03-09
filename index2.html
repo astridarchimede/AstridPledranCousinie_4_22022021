@@ -20,7 +20,7 @@
 		<!-- BOOTSTRAP END -->
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<link rel="stylesheet" type="text/css" href="./css/et-line.css">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous" defer>
 		
 		<title>La chouette agence : Agence web à Lyon</title>
 	</head>
@@ -312,6 +312,19 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" defer></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous" defer></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous" defer></script>
-	<!-- jQuery first, then Popper.js, then Bootstrap JS END -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS END -->
+        <script type="text/javascript">
+            function requireJSOnload() {
+            var element = document.createElement("script");
+            element.src = "/js/require.js";
+            element.setAttribute('data-main', '/js/main');
+            document.body.appendChild(element);
+            }
+            if (window.addEventListener)
+            window.addEventListener("load", requireJSOnload, false);
+            else if (window.attachEvent)
+            window.attachEvent("onload", requireJSOnload);
+            else window.onload = requireJSOnload;
+        </script>
 	</body>
 </html>
